@@ -1,0 +1,173 @@
+@import '../styles/libs/resources.scss'; 
+
+.modal_projets{
+/*   display: none; */
+ left: 15%;
+  top: 15%;
+
+  margin: auto;
+/*   overflow: auto;  */
+
+      .modal_projets--content{
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding: 20px 20px 20px 20px;
+        flex-wrap: wrap;
+        text-align: center;
+        border: black solid 1px;
+        background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        backdrop-filter: blur(6px);
+          span{
+            width: 33%;
+            padding: 20px 20px 20px 20px;
+            justify-content: center;
+            align-items: center;
+              img{
+                width: 80px;
+                height: 80px;
+              }
+              p{
+                margin: auto;
+                font-family: $font-1;
+                width: 70%;
+                background:white;
+                border-radius: 25px; 
+
+            }
+          }
+          span:hover{
+            cursor: pointer;
+            -ms-transform: scale(1.2); /* IE 9 */
+            -webkit-transform: scale(1.2); /* Safari 3-8 */
+            transform: scale(1.2);
+            text-decoration: underline;
+        }
+      }
+     
+
+}
+
+
+@media only screen and (min-device-width : 900px) and (max-device-width : 1400px) {
+  .modal_projets{
+    /*   display: none; */
+      top: 20%;
+      left: 0%;
+    /*   overflow: auto;  */
+    
+          .modal_projets--content{
+            display: flex;
+            flex-direction: row;
+            overflow: auto;
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 90vh ;
+            padding: 5px 5px 5px 5px;
+            flex-wrap: wrap;
+            text-align: center;
+            border: black solid 1px;
+            background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            backdrop-filter: blur(6px);
+            height: auto;
+              span{
+                width: 50%;
+                height: 30%;
+                padding: 10px 10px 10px 10px;
+                justify-content: center;
+                align-items: center;
+                  img{
+                    width: 100px;
+                    height: 100px;
+                  }
+                  p{
+                    margin: auto;
+                    font-family: $font-1;
+                    width: 100%;
+                    background:white;
+                    border-radius: 5px; 
+                    font-size: 1.5rem!important;
+    
+                }
+              }
+              span:active{
+                cursor: pointer;
+                -ms-transform: scale(1.2); /* IE 9 */
+                -webkit-transform: scale(1.2); /* Safari 3-8 */
+                transform: scale(1.2);
+                text-decoration: underline;
+            }
+          }
+         
+    
+    }
+  }
+
+
+
+  @media only screen and (min-width : 320px) and (max-width : 899px) {
+
+  .modal_projets{
+    /*   display: none; */
+      top: 10%;
+      left: 0%;
+    
+      margin: auto;
+    /*   overflow: auto;  */
+    
+          .modal_projets--content{
+            display: flex;
+            flex-direction: row;
+            padding: 5px 5px 5px 5px;
+            flex-wrap: wrap;
+            text-align: center;
+            border: black solid 1px;
+            background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            backdrop-filter: blur(6px);
+            height: 70vh;
+              span{
+                width: 50%;
+                /* height: 30%; */
+                padding: 10px 10px 10px 10px;
+                justify-content: center;
+                align-items: center;
+                  img{
+                    width:60px;
+                    height: 60px;
+                  }
+                  p{
+                    margin: auto;
+                    font-family: $font-1;
+                    width: 100%;
+                    background:white;
+                    border-radius: 5px; 
+                    font-size: 0.7rem;
+    
+                }
+              }
+              span:active{
+                cursor: pointer;
+                -ms-transform: scale(1.2); /* IE 9 */
+                -webkit-transform: scale(1.2); /* Safari 3-8 */
+                transform: scale(1.2);
+                text-decoration: underline;
+            }
+          }
+         
+    
+    }
+    
+
+
+
+
+
+}

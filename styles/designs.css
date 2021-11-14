@@ -1,0 +1,321 @@
+@import url("http://fonts.cdnfonts./css/digital-7-mono");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+  font-family: "Alexana";
+  src: url("../../assets//fonts/Alexana.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Minitel";
+  src: url("../../assets/fonts/Minitel.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
+}
+
+.modal_design {
+  left: 20%;
+  top: 8%;
+  width: 80%;
+  /* height: 600px!important; */
+}
+
+.modal_design .modal_design--content {
+  width: 100%;
+  height: 700px;
+  overflow: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+  border: 1px solid #FFFFFF;
+}
+
+.modal_design .modal_design--content span :nth-child(1) {
+  text-align: center;
+}
+
+/* ---- grid ---- */
+.grid h5 {
+  padding-top: 0.5rem;
+  font-family: "Minitel";
+  font-size: 1rem;
+}
+
+.grid p {
+  padding-top: 0.5rem;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.grid span {
+  padding-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.grid .design {
+  margin-top: 0.5rem;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+          box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), to(#f6f6f6));
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.grid .design .design:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d1cfcf), to(#dfdede));
+  background: linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+  background-color: #f6f6f6;
+  text-shadow: none;
+  color: black;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+.grid-sizer {
+  width: 100%;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.grid-item {
+  float: left;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 50%;
+}
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1400px) {
+  .modal_design {
+    left: 0%;
+    top: 8%;
+    width: 100%;
+    /* height: 600px!important; */
+  }
+  .modal_design .modal_design--content {
+    width: 100%;
+    height: 70vh;
+    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: linear-gradient(179.94deg, #E2E0E0 0.05%, rgba(242, 239, 239, 0.9) 99.95%);
+    border: 1px solid #FFFFFF;
+  }
+  .modal_design .modal_design--content span :nth-child(1) {
+    text-align: center;
+  }
+  /* ---- grid ---- */
+  .grid h5 {
+    padding-top: 0.5rem;
+    font-family: "Minitel";
+    font-size: 1.5rem;
+  }
+  .grid p {
+    padding-top: 0.5rem;
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 1.6rem;
+  }
+  .grid span {
+    padding-top: 0.8rem;
+  }
+  .grid .design {
+    margin-top: 0.5rem;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+            box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), to(#f6f6f6));
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+  }
+  .grid .design .design:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d1cfcf), to(#dfdede));
+    background: linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+    background-color: #f6f6f6;
+    text-shadow: none;
+    color: black;
+  }
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  /* ---- .grid-item ---- */
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+  .grid-item {
+    float: left;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 899px) {
+  .modal_design {
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    /* height: 600px!important; */
+  }
+  .modal_design .modal_design--content {
+    width: 100%;
+    overflow: auto;
+    overflow: scroll;
+  }
+  .modal_design .modal_design--content span :nth-child(1) {
+    text-align: center;
+  }
+  .modal_design .grid .design {
+    margin-top: 0.5rem;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+            box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffffff), to(#f6f6f6));
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+  }
+  .modal_design .grid .design .design:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d1cfcf), to(#dfdede));
+    background: linear-gradient(to bottom, #d1cfcf 5%, #dfdede 100%);
+    background-color: #f6f6f6;
+    text-shadow: none;
+    color: black;
+  }
+  .modal_design span {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0rem;
+  }
+  .modal_design h5 {
+    padding-top: 0.5rem;
+    font-family: "Minitel";
+    font-size: 0.8rem;
+  }
+  .modal_design p {
+    padding-top: 0.5rem;
+    font-family: "Source Code Pro", sans-serif;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  /* ---- .grid-item ---- */
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+  .grid-item {
+    float: left;
+    text-align: left !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .grid-item img {
+    display: block;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=designs.css.map */

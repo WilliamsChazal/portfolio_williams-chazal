@@ -1,0 +1,101 @@
+@import 'libs/rest.scss';
+@import 'libs/resources.scss';
+
+@import url('http://fonts.cdnfonts.com/css/digital-7-mono');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+@font-face {
+    font-family: "Minitel";
+    src: url("../assets/fonts/Minitel.ttf") format("ttf"),
+           ;
+   }
+
+
+ html{
+    height: 100%;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+
+body{
+    background-image: url('./../assets/background/background-day-mode.svg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in 0.6s;
+    overflow: hidden;
+    cursor: crosshair!important;
+}
+
+h4{
+    font-family: "Minitel";
+    font-size: 1.5rem!important;
+  }
+
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-size: 1rem;
+}
+.close{
+    width: 29.05px;
+    height: 29px;
+    background: #FD0808;
+    box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+.modal{
+    display: none;
+}
+
+@media only screen and (min-device-width : 900px) and (max-device-width :1400px) {
+    body{
+        background-image: url('../assets/background/day-mode-phone.svg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: ease-in 0.6s;
+    }
+    .close{
+        width: 40px!important;
+        height: 40px!important;
+        background: #FD0808;
+        box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 899px) {
+    body{
+        background-image: url('../assets/background/day-mode-phone.svg');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: ease-in 0.6s;
+        overflow: hidden;
+    }
+    .close{
+        width: 20px!important;
+        height: 20px!important;
+        background: #FD0808;
+        box-shadow: inset 3px -2px 4px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+}
+

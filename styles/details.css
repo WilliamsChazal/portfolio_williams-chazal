@@ -1,0 +1,403 @@
+.modal_details {
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  margin: auto;
+  z-index: 999;
+}
+
+.modal_details--content {
+  background: -webkit-gradient(linear, left top, left bottom, from(#E3E1E1), to(#D5D0D0));
+  background: linear-gradient(180deg, #E3E1E1 0%, #D5D0D0 100%);
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.modal_details--content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0.5rem;
+}
+
+.modal_details--content .icons span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.modal_details--content .icons span img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  border-radius: 25px;
+  width: 80px;
+  height: 80px;
+}
+
+.modal_details--content .icons span p {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(3.8%, #FFFFFF), color-stop(94.57%, rgba(255, 255, 255, 0.69)));
+  background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
+  -webkit-filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+  font-family: 'Source Code Pro';
+}
+
+.modal_details--content .icons p:hover {
+  cursor: pointer;
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  font-weight: Bold;
+}
+
+.modal_details--content .details-projets {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 254, 0.41)), to(rgba(254, 254, 254, 0)));
+  background: linear-gradient(180deg, rgba(254, 254, 254, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
+  border-radius: 21px;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.modal_details--content .details-projets span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal_details--content .details-projets span img {
+  padding: 2rem 2rem 2rem 2rem;
+  -webkit-filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.modal_details--content .details-projets span h3 {
+  font-family: 'Source Code Pro';
+  padding: 1rem 0 0 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.modal_details--content .details-projets span p {
+  font-family: 'Source Code Pro';
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+  .modal_details {
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+  }
+  .modal_details--content {
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3E1E1), to(#D5D0D0));
+    background: linear-gradient(180deg, #E3E1E1 0%, #D5D0D0 100%);
+    border: 1px solid #000000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80vh;
+  }
+  .modal_details--content .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0.5rem;
+  }
+  .modal_details--content .icons span {
+    padding: 5px 5px 5px 5px;
+  }
+  .modal_details--content .icons span img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(9px);
+            backdrop-filter: blur(9px);
+    border-radius: 25px;
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .modal_details--content .icons span p {
+    padding: 2px 2px 2px 2px;
+    font-size: 1.5rem !important;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, color-stop(3.8%, #FFFFFF), color-stop(94.57%, rgba(255, 255, 255, 0.69)));
+    background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
+    -webkit-filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    font-family: 'Source Code Pro';
+  }
+  .modal_details--content .icons p:hover {
+    cursor: pointer;
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    font-weight: Bold;
+  }
+  .modal_details--content .details-projets {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 254, 0.41)), to(rgba(254, 254, 254, 0)));
+    background: linear-gradient(180deg, rgba(254, 254, 254, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
+    border-radius: 21px;
+    margin: auto;
+  }
+  .modal_details--content .details-projets span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .modal_details--content .details-projets span img {
+    height: 300px;
+    padding: 2rem 2rem 2rem 2rem;
+    -webkit-filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+  }
+  .modal_details--content .details-projets span h3 {
+    font-family: 'Source Code Pro';
+    padding: 1rem 0 0 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .modal_details--content .details-projets span p {
+    font-family: 'Source Code Pro';
+    padding: 1rem 1rem 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 899px) {
+  .modal_details {
+    left: 0%;
+    top: 5%;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+  }
+  .modal_details--content {
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3E1E1), to(#D5D0D0));
+    background: linear-gradient(180deg, #E3E1E1 0%, #D5D0D0 100%);
+    border: 1px solid #000000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 90vh;
+  }
+  .modal_details--content .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0.5rem;
+  }
+  .modal_details--content .icons span {
+    padding: 5px 5px 5px 5px;
+  }
+  .modal_details--content .icons span img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(9px);
+            backdrop-filter: blur(9px);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+  }
+  .modal_details--content .icons span p {
+    padding: 2px 2px 2px 2px;
+    font-size: 0.7rem;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, color-stop(3.8%, #FFFFFF), color-stop(94.57%, rgba(255, 255, 255, 0.69)));
+    background: linear-gradient(90deg, #FFFFFF 3.8%, rgba(255, 255, 255, 0.69) 94.57%);
+    -webkit-filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    font-family: 'Source Code Pro';
+  }
+  .modal_details--content .icons p:hover {
+    cursor: pointer;
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    font-weight: Bold;
+  }
+  .modal_details--content .details-projets {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 254, 0.41)), to(rgba(254, 254, 254, 0)));
+    background: linear-gradient(180deg, rgba(254, 254, 254, 0.41) 0%, rgba(254, 254, 254, 0) 100%);
+    border-radius: 21px;
+    margin: auto;
+  }
+  .modal_details--content .details-projets span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 1rem;
+  }
+  .modal_details--content .details-projets span img {
+    height: 200px;
+    padding: 2rem 2rem 2rem 2rem;
+    -webkit-filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+  }
+  .modal_details--content .details-projets span h3 {
+    font-family: 'Source Code Pro';
+    padding: 1rem 0 0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .modal_details--content .details-projets span p {
+    font-family: 'Source Code Pro';
+    padding: 1rem 1rem 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=details.css.map */

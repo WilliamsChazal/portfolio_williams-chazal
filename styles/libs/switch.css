@@ -1,0 +1,138 @@
+input[type='checkbox'] {
+  display: none;
+}
+
+.check {
+  position: relative;
+  display: block;
+  width: 95px;
+  height: 45px;
+  background: #E0E5EC;
+  border-radius: 38px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  -webkit-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+}
+
+input[type='checkbox']:checked ~ .check {
+  background: #141414;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.check:before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 5px;
+  left: 5px;
+  background-image: url("../../assets/icons/sun.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type='checkbox']:checked ~ .check:before {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+
+.dark-mode input[type='checkbox']:checked ~ .check {
+  background: #141414;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.dark-mode .check:before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 5px;
+  right: 5px;
+  background-image: url(../../assets/icons/moon.svg);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dark-mode input[type='checkbox']:checked ~ .check:before {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 680px) {
+  .check {
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 25px;
+    background: #E0E5EC;
+    border-radius: 38px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    -webkit-transition: ease-in 0.4s;
+    transition: ease-in 0.4s;
+  }
+  input[type='checkbox']:checked ~ .check {
+    background: #141414;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+  }
+  .check:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 5px;
+    background-image: url("../../assets/icons/sun.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  input[type='checkbox']:checked ~ .check:before {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  .dark-mode input[type='checkbox']:checked ~ .check {
+    background: #141414;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+  }
+  .dark-mode .check:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    right: 5px;
+    background-image: url(../../assets/icons/moon.svg);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .dark-mode input[type='checkbox']:checked ~ .check:before {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+}
+/*# sourceMappingURL=switch.css.map */

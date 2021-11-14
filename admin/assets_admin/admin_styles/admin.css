@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "kremlin";
+    src: url("./kremlin.ttf") format("ttf"),
+           ;
+}
+
+/* *{
+    border: red solid 1px;
+} */
+
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.landing{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.projet{
+    overflow-y: scroll;
+    height: 100vh;
+}
+.logo{
+    width: 60px;
+}
+.image{
+    width: 50%;
+    height: auto;
+}
+.projets_details--image{
+    width: 50%;
+    height: 300px;
+}
+
+.nav-link:hover {
+    background-color: #525252 !important
+}
+
+.nav-link .fa {
+    transition: all 1s
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg)
+}
+
+.home{
+    background: #071430!important;
+}
+
+
+
+.card{
+    margin-top: 20px!important;
+}
+
+.back{
+    background: #071430!important;
+    color: white!important;
+}
+.back:hover{
+    background: #1844a5!important;
+}
+
+.col-10{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-10 h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'kremlin';
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+#trash{
+    font-size: 36px;
+    color: red;
+    cursor: pointer;
+}

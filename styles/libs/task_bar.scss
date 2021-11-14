@@ -1,0 +1,96 @@
+@import '../libs/resources.scss';
+.task_bar{
+  font-family: $font-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.555) 50%, rgba(255, 255, 255, 0.55) 100%);
+    box-sizing: border-box;
+    box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+         span {
+           margin-left: 20px;
+           margin-right: 20px;
+         }
+         
+      
+  }
+.modal_generic{
+  position: absolute;
+  z-index: 11;
+    .task_bar{
+      cursor: move;
+    }
+}
+  #mydiv{
+    position: absolute;
+    z-index: 11;
+  }
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+  
+  }
+
+  #mondiv{
+    position: absolute;
+    z-index: 11;
+  }
+  #mondivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+  }
+
+  #meindiv{
+    position: absolute;
+    z-index: 11;
+  }
+  #meindivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+  }
+
+  #midiv{
+    position: absolute;
+    z-index: 11;
+  }
+  #midiv {
+    cursor: move;
+    z-index: 10;
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 899px) {
+
+    .task_bar{
+      font-family: $font-1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        background: linear-gradient(180deg, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+        box-sizing: border-box;
+        box-shadow: inset -7px -7px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px 15px 0px 0px;
+        font-size: 0.8rem;
+             span {
+               margin-left: 20px;
+               margin-right: 20px;
+             }
+             
+          
+      }
+    .modal_generic{
+      position: absolute;
+      z-index: 11;
+        .task_bar{
+          cursor:auto;
+        }
+    }
+
+  }

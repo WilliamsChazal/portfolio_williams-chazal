@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Minitel";
-  src: url("../../assets/fonts/Minitel.ttf") format("ttf");
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
 }
 
 a {
@@ -26,20 +26,25 @@ a:active {
   position: absolute;
   top: 70%;
   left: 25%;
-}
-
-.wordpress div span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wordpress div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .wordpress div img {
-  height: 76.43px;
+  height: 65px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(33.75%, rgba(255, 255, 255, 0.713548)), color-stop(49.48%, rgba(255, 255, 255, 0.58)), to(rgba(255, 255, 255, 0.69)));
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.713548) 33.75%, rgba(255, 255, 255, 0.58) 49.48%, rgba(255, 255, 255, 0.69) 100%);
   border: 1px solid #FFFFFF;

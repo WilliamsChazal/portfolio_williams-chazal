@@ -8,14 +8,15 @@
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    top: -5px;
-  right: 105%;
+    top: 5px;
+    right: 105%;
     margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.616);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
+    font-size: 0.8rem;
   
     /* Position the tooltip */
     position: absolute;

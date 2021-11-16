@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /admin/
 Disallow: /assets/
 Disallow: /scripts/
+Disallow:/parts/libs/wordpress.php
 
 <url>
 <loc>https://williamsc.promo-68.codeur.online/williams_chazal/parts/accueil.php</loc>

@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Minitel";
-  src: url("../../assets/fonts/Minitel.ttf") format("ttf");
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
 }
 
 .topnav {
@@ -128,8 +128,7 @@
 }
 
 #about-me {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 239, 239, 0.479)), color-stop(0%, rgba(219, 219, 219, 0.61)));
-  background: linear-gradient(180deg, rgba(242, 239, 239, 0.479) 0%, rgba(219, 219, 219, 0.61) 0%);
+  background: rgba(245, 245, 245, 0.747);
   width: 40%;
   top: 8%;
   border-radius: 0px 0px 10px 10px;

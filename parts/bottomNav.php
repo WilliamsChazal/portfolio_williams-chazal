@@ -46,7 +46,7 @@
         <?php
                 }
       ?>
-      <span class="tooltiptext">Tooltip text</span>
+      <span class="tooltiptext">Visiter ce projet</span>
     </div>
     
 </nav>

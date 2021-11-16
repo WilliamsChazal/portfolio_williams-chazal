@@ -2,11 +2,19 @@
 
 
 .topnav{
+
+    #light_mode{
+        display: block!important;
+    }
+    #dark_mode{
+        display: none;
+    }
+
     display: flex;
     width: 100%;
     border:  2px solid #FFFEFE;
     background: $linear-1;
-    height: 70px;
+    height: 90px;
     margin-top: 10px;
     box-sizing: border-box;
     border-radius: 120px;
@@ -311,6 +319,15 @@
         border-radius: 120px;
         font-family: $font-2!important;
         justify-content: space-between;
+
+        #light_mode{
+            display: block!important;
+            font-size: 0.5rem!important;
+        }
+        #dark_mode{
+            display: none;
+        }
+
        /*  align-items: center; */
             h2{
                 font-family: $font-1;
@@ -359,8 +376,8 @@
                         }
                             
                                 div#digital-clock__time{
-                                    font-family: 'Digital-7 Mono', sans-serif;
-                                    font-size: 0.7rem; 
+                                    font-family: 'Digital-7', sans-serif;
+                                    font-size: 0.5rem; 
                                     font-weight: bold;
                                     margin-right: 10px;
                                 }   

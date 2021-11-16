@@ -9,6 +9,14 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
     background-repeat: no-repeat;
     background-size: cover;
     transition: ease-in 0.6s;
+
+    #dark_mode{
+        display: block;
+    }
+    #light_mode{
+        display: none!important;
+    }
+
     #close_games{
         display: none;
         margin-top: 0.5rem;
@@ -86,6 +94,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                 background: $linear-dark-1;
                 color: $color-1;
                 border: $color-2;
+                
                 #logo{
                     background-image: url(../assets/img/logo-dark.png);
                     background-position: center;
@@ -128,7 +137,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
                 color: $color-1;
             }
             p{
-                margin-left: 50px;
+                
                 margin-bottom: 7px;
                 font-family: $font-1;
                 background:$color-2;
@@ -366,6 +375,13 @@ div #about-me{
                         display: flex;
                         align-items: center;
                         justify-content: space-around;
+                    }
+                    #dark_mode{
+                        display: block;
+                        font-size: 0.7rem!important;
+                    }
+                    #light_mode{
+                        display: none!important;
                     }
                     #logo{
                         background-image: url(../assets/img/logo-dark.png);

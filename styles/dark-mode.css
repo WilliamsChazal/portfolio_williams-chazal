@@ -182,6 +182,14 @@ p {
   transition: ease-in 0.6s;
 }
 
+.dark-mode #dark_mode {
+  display: block;
+}
+
+.dark-mode #light_mode {
+  display: none !important;
+}
+
 .dark-mode #close_games {
   display: none;
   margin-top: 0.5rem;
@@ -321,7 +329,6 @@ p {
 }
 
 .dark-mode .bottomNav nav p {
-  margin-left: 50px;
   margin-bottom: 7px;
   font-family: "Source Code Pro", sans-serif;
   background: black;
@@ -608,6 +615,13 @@ p {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .dark-mode .topnav #dark_mode {
+    display: block;
+    font-size: 0.7rem !important;
+  }
+  .dark-mode .topnav #light_mode {
+    display: none !important;
   }
   .dark-mode .topnav #logo {
     background-image: url(../assets/img/logo-dark.png);

@@ -17,25 +17,25 @@
 
 <section class="bottomNav">
 <nav >
-    <div class='hover' onclick='openModal("./parts/projets.php", "modal_projets" ,"Portfolio", 10)' >
+    <div class='hover' onclick='openModal("./parts/projets.php", "modal_projets" ,"Projets", 10)' >
         <img src="./assets/icons/dossier.svg" alt="" srcset="" >
-        <p>Portfolio</p>
+        <p>Mes Projets</p>
 
     </div>
     <div class='hover'  onclick='openModal("./parts/skills.php", "modal_skills" ,"Compétences", 10)'>
         <img src="./assets/icons/coding.svg" alt="" srcset="">
-        <p>Compétences</p>
+        <p>Mes Compétences</p>
     </div>
-    <div class='hover' onclick='openModal("./parts/designs.php", "modal_design" ,"Webdesigns", 10)'>
+    <div class='hover' onclick='openModal("./parts/designs.php", "modal_design" ,"Designs", 10)'>
         <img src="./assets/icons/designer.png" alt="" srcset="">
-        <p>Webdesign</p>
+        <p>Mes Designs</p>
     </div>
 
     <div class='hover' onclick='openModal("./parts/form.php", "modal_contact" ,"Contactez moi", 10)'>
         <img src="./assets/icons/un-message.svg" alt="" srcset="">
-        <p>Contact</p>
+        <p>Contactez-moi</p>
     </div>
-    <div id='projet' class='hover'>
+    <div id='projet' class='hover tooltip'>
     <?php
                 foreach ($result as $projet) {
             ?>
@@ -46,6 +46,7 @@
         <?php
                 }
       ?>
+      <span class="tooltiptext">Tooltip text</span>
     </div>
     
 </nav>

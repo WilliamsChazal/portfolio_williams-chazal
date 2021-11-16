@@ -16,7 +16,7 @@
 
 
 <section class='games'>
-    <div><h4 class='text-pop-up-top' >Mes Jeux</h4></div>
+    <div><h4 >Mes Jeux</h4></div>
         <div>
         <?php
                 foreach ($result as $projet) {
@@ -27,7 +27,10 @@
             <span onclick="displayIframe('<?=$projet['projet_link']?>')">
                 <p><?=$projet['projet_titre']?></p>
             </span>
+            <div id="endGames">
             <span  onclick ="removeIFrame('<?=$projet['projet_link']?>')"><i class="fa fa-times-circle" aria-hidden="true" id="close_games"></i></span>
+            </div>
+            
             <?php
                 }
       ?>

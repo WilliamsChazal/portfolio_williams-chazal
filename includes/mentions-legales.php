@@ -46,6 +46,9 @@ i{
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.php">Crédits</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="../index.php">Retour au site</a>
         </li>
@@ -271,8 +274,14 @@ i{
 
 
     </div>
+    <div><h2>Définitions</h2></div>
+    
                    
 </div>
+
+
+
+
 <footer class="text-center text-white" style="background-color: #f1f1f1;">
   <!-- Grid container -->
   <div class="mt-3" style="background-color: #f1f1f1;">

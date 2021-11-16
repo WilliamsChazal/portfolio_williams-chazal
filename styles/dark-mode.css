@@ -62,13 +62,13 @@ td, th {
 }
 
 @font-face {
-  font-family: "Alexana";
-  src: url("../assets/fonts/Alexana.ttf") format("ttf");
+  font-family: "Minitel";
+  src: url("../assets/fonts/Minitel.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: "Minitel";
-  src: url("../assets/fonts/Minitel.ttf") format("ttf");
+  font-family: 'Digital-7';
+  src: url(../assets/fonts/digital-7.ttf) format("ttf");
 }
 
 html {
@@ -78,7 +78,7 @@ html {
 }
 
 body {
-  background-image: url("./../assets/background/background-day-mode.svg");
+  background-image: url("../assets/background/background_light.svg");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,6 +86,11 @@ body {
   transition: ease-in 0.6s;
   overflow: hidden;
   cursor: crosshair !important;
+}
+
+h4 {
+  font-family: "Minitel";
+  font-size: 1.5rem !important;
 }
 
 h2 {
@@ -115,7 +120,7 @@ p {
 
 @media only screen and (min-device-width: 900px) and (max-device-width: 1400px) {
   body {
-    background-image: url("../assets/background/day-mode-phone.svg");
+    background-image: url("../assets/background/background_light.svg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +142,7 @@ p {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 899px) {
   body {
-    background-image: url("../assets/background/day-mode-phone.svg");
+    background-image: url("../assets/background/background_light.svg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +174,7 @@ p {
 }
 
 .dark-mode {
-  background-image: url("../assets/background/background-dark-mode.svg");
+  background-image: url("../assets/background/background_dark.svg");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -465,7 +470,7 @@ p {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
   .dark-mode {
-    background-image: url("../assets/background/night-mode-phone.svg");
+    background-image: url("../assets/background/background_dark.svg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -561,9 +566,9 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 899px) {
   .dark-mode {
-    background-image: url("../assets/background/night-mode-phone.svg");
+    background-image: url("../assets/background/background_dark.svg");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;

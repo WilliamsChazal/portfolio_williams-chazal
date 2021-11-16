@@ -11,6 +11,11 @@
            ;
    }
 
+@font-face {
+    font-family: 'Digital-7';
+    src: url(../assets/fonts/digital-7.ttf) format("ttf");
+}
+
 
  html{
     height: 100%;
@@ -20,7 +25,7 @@
 
 
 body{
-    background-image: url('./../assets/background/background-day-mode.svg');
+    background-image: url('../assets/background/background_light.svg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +48,12 @@ h2{
 p{
     font-size: 1rem;
 }
+
+
+
+
+
+
 .close{
     width: 29.05px;
     height: 29px;
@@ -61,7 +72,7 @@ p{
 
 @media only screen and (min-device-width : 900px) and (max-device-width :1400px) {
     body{
-        background-image: url('../assets/background/day-mode-phone.svg');
+        background-image: url('../assets/background/background_light.svg');
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -81,7 +92,7 @@ p{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 899px) {
     body{
-        background-image: url('../assets/background/day-mode-phone.svg');
+        background-image: url('../assets/background/background_light.svg');
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;

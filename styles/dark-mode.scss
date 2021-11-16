@@ -4,7 +4,7 @@ $linear-dark-1: linear-gradient(344.38deg, rgba(0, 0, 0, 0.6) 12.66%, rgba(0, 0,
 $linear-dark-2: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 100%);
 $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5025) 100%);
 .dark-mode{
-    background-image: url('../assets/background/background-dark-mode.svg');
+    background-image: url('../assets/background/background_dark.svg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +250,7 @@ $linear-dark-3:linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5
     }
 @media only screen and (min-device-width : 768px) and (max-device-width :1300px) {
     .dark-mode{
-        background-image: url('../assets/background/night-mode-phone.svg');
+        background-image: url('../assets/background/background_dark.svg');
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -340,10 +340,10 @@ div #about-me{
     }
 
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 760px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 899px) {
 
     .dark-mode{
-        background-image: url('../assets/background/night-mode-phone.svg');
+        background-image: url('../assets/background/background_dark.svg');
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;

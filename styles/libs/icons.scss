@@ -1,4 +1,11 @@
 @import '../libs/resources.scss';
+
+
+@font-face {
+  font-family: 'Minitel';
+  src: url(./../../assets/fonts/Minitel.ttf);
+}
+
 a{
   text-decoration: none!important;
   color: inherit;

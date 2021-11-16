@@ -1,10 +1,10 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 @import url("http://fonts.cdnfonts.com/css/digital-7-mono");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 @import url("http://fonts.cdnfonts.com/css/digital-7-mono");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("http://fonts.cdnfonts.com/css/digital-7-mono");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -52,13 +52,18 @@ td, th {
 }
 
 @font-face {
-  font-family: "Alexana";
-  src: url("../../assets//fonts/Alexana.ttf") format("ttf");
+  font-family: "Minitel";
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("./../../assets/fonts/digital-7.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Minitel";
-  src: url("../../assets/fonts/Minitel.ttf") format("ttf");
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
 }
 
 @font-face {
@@ -164,13 +169,18 @@ p {
 }
 
 @font-face {
-  font-family: "Alexana";
-  src: url("../../assets//fonts/Alexana.ttf") format("ttf");
+  font-family: "Minitel";
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("./../../assets/fonts/digital-7.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Minitel";
-  src: url("../../assets/fonts/Minitel.ttf") format("ttf");
+  src: url("../../assets/fonts/digital-7.ttf") format("ttf");
 }
 
 .dark-mode {
@@ -330,7 +340,7 @@ p {
 
 .dark-mode .bottomNav nav p {
   margin-bottom: 7px;
-  font-family: "Source Code Pro", sans-serif;
+  font-family: font-family "Source Code Pro", monospace;
   background: black;
   color: white;
   text-align: center;
@@ -490,7 +500,7 @@ p {
     border: black;
   }
   .dark-mode .topnav h2 {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: font-family "Source Code Pro", monospace;
     font-weight: 500;
     font-size: 1.2rem;
   }
@@ -554,7 +564,7 @@ p {
     color: white;
   }
   .dark-mode .bottomNav nav p {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: font-family "Source Code Pro", monospace;
     background: black;
     color: white;
     text-align: center;
@@ -562,7 +572,7 @@ p {
     padding: 5px 5px 5px 5px;
     margin-left: 0px;
     margin-bottom: 7px;
-    font-family: "Source Code Pro", sans-serif;
+    font-family: font-family "Source Code Pro", monospace;
     font-size: 1.2rem;
   }
   .dark-mode .bottomNav nav img {
@@ -602,7 +612,7 @@ p {
                                 } */
   }
   .dark-mode .topnav h2 {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: font-family "Source Code Pro", monospace;
     font-weight: 500;
     font-size: 0.6rem;
   }
@@ -618,7 +628,7 @@ p {
   }
   .dark-mode .topnav #dark_mode {
     display: block;
-    font-size: 0.7rem !important;
+    font-size: 0.5rem !important;
   }
   .dark-mode .topnav #light_mode {
     display: none !important;
@@ -649,7 +659,7 @@ p {
   }
   .dark-mode .topnav div#digital-clock__time {
     font-family: 'Digital-7 Mono', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.5rem !important;
     font-weight: bold;
     margin-right: 10px;
   }
@@ -673,7 +683,7 @@ p {
     color: white;
   }
   .dark-mode .bottomNav nav p {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: font-family "Source Code Pro", monospace;
     background: black;
     color: white;
     text-align: center;
@@ -681,7 +691,7 @@ p {
     padding: 2px 2px 2px 2px;
     margin-left: 0px;
     margin-bottom: 7px;
-    font-family: "Source Code Pro", sans-serif;
+    font-family: font-family "Source Code Pro", monospace;
     font-size: 0.7rem;
   }
   .dark-mode .bottomNav nav img {

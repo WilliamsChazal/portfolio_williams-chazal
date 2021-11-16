@@ -203,7 +203,7 @@
 
     .modal_details{
         left: 0%;
-         top: 5%;
+         top: 1%;
          width: 100%;
          margin: auto;
          z-index: 999;
@@ -216,9 +216,9 @@
         box-sizing: border-box;
         display: flex;
        flex-wrap: wrap;
-       overflow: auto;
-       overflow: scroll;
-       overflow-x: hidden;
+       overflow: auto!important;
+       overflow: scroll!important;
+       overflow-x: hidden!important;
        height: 90vh;
             .icons {
                 display: flex;
@@ -265,6 +265,9 @@
                     
             }
             .details-projets{
+                overflow: auto;
+                overflow: scroll;
+                overflow-x: hidden;
                 width: 80%;
                 display: flex;
                 flex-direction: row;
